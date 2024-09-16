@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minha Página Web</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      padding-top: 56px;
+    }
+  </style>
+</head>
+<body>
+  <header class="navbar navbar-expand-lg navbar-light bg-primary fixed-top">
+    <a class="navbar-brand text-white" href="#">Descomplica News</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link text-white" href="#">Início <span class="sr-only">(página atual)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Sobre</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Contato</a>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <main role="main" class="container mt-5">
+    <section class="my-5">
+      <h2 class="text-primary">Novo jogo da Valve nem foi revelado e já tem milhares de jogadores na Steam</h2>
+      <p>A Valve tem alguns jogos de peso em seu próprio catálogo, mas parece que essa lista está prestes a aumentar. Segundo vazamentos recentes, a dona da Steam estaria supostamente trabalhando em um shooter chamado Deadlock — que nem sequer foi anunciado oficialmente mas já teve quase 17 mil jogadores simultâneos no último fim de semana, segundo o SteamDB.</p>
+    </section>
+    <section class="my-5">
+        <h2 class="text-success">Deadlock ainda não foi revelado oficialmente pela Valve
+        </h2>
+      <p>Segundo vazamentos, que vieram por parte dos criadores de conteúdo Gabe Follower e Tyler McVicker em maio, Deadlock tem muitas semelhanças com o Overwatch, da Blizzard. O shooter estaria em desenvolvimento desde 2018 e terá um grande mapa com quatro pistas de ataque que possuem mecânicas de tower defense, bem como vários itens e habilidades para utilizar.</p>
+    </section>
+    <section class="my-5">
+        <h2 class="text-warning">Sobre DeadLock</h2>
+      <p>"Design de herói bastante inspirado no universo Dota", disse McVicker. "O mapa principal faz referência à moderna cidade européia steampunk (um pouco como Half-Life). Inicialmente, o jogo tinha elementos de ficção científica inspirados em Half-Life e Portal, mas após o mau feedback a equipe de desenvolvimento decidiu focar na fantasia".</p>
+    </section>
+  </main>
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; <span id="currentYear"></span> Minha Página Web. Todos os direitos reservados.</p>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
